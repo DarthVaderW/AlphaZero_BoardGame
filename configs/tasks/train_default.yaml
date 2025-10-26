@@ -1,0 +1,52 @@
+experiment:
+  use_gpu: true
+  seed: 42
+  game_batch_num: 1500
+  play_batch_size: 1
+
+game:
+  type: gobang
+  board_width: 8
+  board_height: 8
+  n_in_row: 5
+  winner_check: scan_all
+
+backend:
+  game_core: python
+  mcts_alpha_zero: python
+  mcts_pure: python
+
+mcts:
+  temperature: 1.0
+  n_playout: 400
+  c_puct: 5.0
+
+pure_mcts:
+  n_playout: 1000
+  c_puct: 5.0
+  n_games: 10
+  schedule:
+    enabled: true
+    start_n_playout: 1000
+    step_n_playout: 1000
+    max_n_playout: 5000
+    win_ratio_threshold: 1.0
+    reset_best_win_ratio: true
+
+training:
+  buffer_size: 10000
+  batch_size: 512
+  epochs: 5
+  kl_targ: 0.02
+  lr: 0.002
+
+logging:
+  save_interval: 50
+  wandb:
+    mode: offline
+    project: gobang-alpha-zero
+    run_name: train-default-8x8-5inrow
+
+paths:
+  checkpoints_dir: artifacts/checkpoints
+  replay_dir: artifacts/replay

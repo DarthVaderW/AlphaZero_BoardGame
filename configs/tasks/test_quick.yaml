@@ -1,0 +1,47 @@
+experiment:
+  use_gpu: false
+  seed: 0
+  game_batch_num: 3
+  play_batch_size: 1
+
+game:
+  type: gobang
+  board_width: 6
+  board_height: 6
+  n_in_row: 4
+  winner_check: last_move
+
+backend:
+  game_core: python
+  mcts_alpha_zero: python
+  mcts_pure: python
+
+mcts:
+  temperature: 1.0
+  n_playout: 100
+  c_puct: 5.0
+
+pure_mcts:
+  n_playout: 200
+  c_puct: 5.0
+  n_games: 2
+  schedule:
+    enabled: false
+
+training:
+  buffer_size: 1000
+  batch_size: 32
+  epochs: 2
+  kl_targ: 0.02
+  lr: 0.002
+
+logging:
+  save_interval: 1
+  wandb:
+    mode: offline
+    project: gobang-alpha-zero
+    run_name: test-quick-6x6
+
+paths:
+  checkpoints_dir: artifacts/checkpoints
+  replay_dir: artifacts/replay

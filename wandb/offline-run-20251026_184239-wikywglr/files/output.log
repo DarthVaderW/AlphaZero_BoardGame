@@ -1,0 +1,251 @@
+count=  1 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.1x
+count=  2 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.0x
+count=  3 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.1x
+count=  4 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.1x
+count=  5 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.0x
+count=  6 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.0x
+count=  7 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.0x
+count=  8 | scan_all(mean±std)=  0.000±  0.000 ms | last_move(mean±std)=  0.000±  0.000 ms | speedup=   1.0x
+count=  9 | scan_all(mean±std)=  0.021±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  11.5x
+count= 10 | scan_all(mean±std)=  0.024±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  13.0x
+count= 11 | scan_all(mean±std)=  0.027±  0.004 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  13.5x
+count= 12 | scan_all(mean±std)=  0.027±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  14.1x
+count= 13 | scan_all(mean±std)=  0.029±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  15.4x
+count= 14 | scan_all(mean±std)=  0.031±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  16.8x
+count= 15 | scan_all(mean±std)=  0.034±  0.004 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  18.1x
+count= 16 | scan_all(mean±std)=  0.035±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  18.0x
+count= 17 | scan_all(mean±std)=  0.037±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  19.7x
+count= 18 | scan_all(mean±std)=  0.039±  0.005 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  20.8x
+count= 19 | scan_all(mean±std)=  0.041±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  21.0x
+count= 20 | scan_all(mean±std)=  0.042±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  22.2x
+count= 21 | scan_all(mean±std)=  0.044±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  23.1x
+count= 22 | scan_all(mean±std)=  0.047±  0.006 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  24.4x
+count= 23 | scan_all(mean±std)=  0.048±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  25.5x
+count= 24 | scan_all(mean±std)=  0.049±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  26.2x
+count= 25 | scan_all(mean±std)=  0.052±  0.003 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  26.8x
+count= 26 | scan_all(mean±std)=  0.053±  0.004 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  27.9x
+count= 27 | scan_all(mean±std)=  0.056±  0.004 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  29.1x
+count= 28 | scan_all(mean±std)=  0.058±  0.004 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  29.4x
+count= 29 | scan_all(mean±std)=  0.061±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  30.4x
+count= 30 | scan_all(mean±std)=  0.063±  0.008 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  33.7x
+count= 31 | scan_all(mean±std)=  0.070±  0.012 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  34.7x
+count= 32 | scan_all(mean±std)=  0.068±  0.008 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  31.3x
+count= 33 | scan_all(mean±std)=  0.068±  0.004 ms | last_move(mean±std)=  0.003±  0.004 ms | speedup=  25.6x
+count= 34 | scan_all(mean±std)=  0.071±  0.006 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  35.2x
+count= 35 | scan_all(mean±std)=  0.073±  0.005 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  36.6x
+count= 36 | scan_all(mean±std)=  0.078±  0.018 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  39.3x
+count= 37 | scan_all(mean±std)=  0.077±  0.006 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  38.7x
+count= 38 | scan_all(mean±std)=  0.079±  0.005 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  39.3x
+count= 39 | scan_all(mean±std)=  0.082±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  42.1x
+count= 40 | scan_all(mean±std)=  0.086±  0.008 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  41.9x
+count= 41 | scan_all(mean±std)=  0.085±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  43.8x
+count= 42 | scan_all(mean±std)=  0.087±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  42.9x
+count= 43 | scan_all(mean±std)=  0.087±  0.010 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  40.3x
+count= 44 | scan_all(mean±std)=  0.089±  0.006 ms | last_move(mean±std)=  0.003±  0.005 ms | speedup=  30.0x
+count= 45 | scan_all(mean±std)=  0.091±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  44.4x
+count= 46 | scan_all(mean±std)=  0.093±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  46.3x
+count= 47 | scan_all(mean±std)=  0.095±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  46.9x
+count= 48 | scan_all(mean±std)=  0.095±  0.007 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  49.9x
+count= 49 | scan_all(mean±std)=  0.098±  0.006 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  48.7x
+count= 50 | scan_all(mean±std)=  0.100±  0.006 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  49.4x
+count= 51 | scan_all(mean±std)=  0.102±  0.009 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  49.6x
+count= 52 | scan_all(mean±std)=  0.104±  0.008 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  52.2x
+count= 53 | scan_all(mean±std)=  0.103±  0.011 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  49.7x
+count= 54 | scan_all(mean±std)=  0.104±  0.010 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  51.9x
+count= 55 | scan_all(mean±std)=  0.107±  0.012 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  52.6x
+count= 56 | scan_all(mean±std)=  0.109±  0.014 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  52.8x
+count= 57 | scan_all(mean±std)=  0.112±  0.014 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  51.8x
+count= 58 | scan_all(mean±std)=  0.115±  0.013 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.3x
+count= 59 | scan_all(mean±std)=  0.120±  0.024 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  56.6x
+count= 60 | scan_all(mean±std)=  0.120±  0.015 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.3x
+count= 61 | scan_all(mean±std)=  0.121±  0.017 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.7x
+count= 62 | scan_all(mean±std)=  0.123±  0.016 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  58.7x
+count= 63 | scan_all(mean±std)=  0.122±  0.013 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  58.4x
+count= 64 | scan_all(mean±std)=  0.125±  0.014 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  58.0x
+count= 65 | scan_all(mean±std)=  0.128±  0.014 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  60.7x
+count= 66 | scan_all(mean±std)=  0.128±  0.015 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  61.4x
+count= 67 | scan_all(mean±std)=  0.136±  0.021 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  62.1x
+count= 68 | scan_all(mean±std)=  0.132±  0.015 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  65.1x
+count= 69 | scan_all(mean±std)=  0.133±  0.025 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  63.3x
+count= 70 | scan_all(mean±std)=  0.132±  0.022 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  66.5x
+count= 71 | scan_all(mean±std)=  0.133±  0.022 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  63.3x
+count= 72 | scan_all(mean±std)=  0.136±  0.023 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  59.3x
+count= 73 | scan_all(mean±std)=  0.139±  0.025 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  62.7x
+count= 74 | scan_all(mean±std)=  0.140±  0.023 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  57.4x
+count= 75 | scan_all(mean±std)=  0.147±  0.033 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  65.7x
+count= 76 | scan_all(mean±std)=  0.147±  0.028 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  68.5x
+count= 77 | scan_all(mean±std)=  0.144±  0.026 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  69.4x
+count= 78 | scan_all(mean±std)=  0.165±  0.046 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  69.8x
+count= 79 | scan_all(mean±std)=  0.145±  0.028 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  67.3x
+count= 80 | scan_all(mean±std)=  0.149±  0.028 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  67.8x
+count= 81 | scan_all(mean±std)=  0.151±  0.029 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  69.0x
+count= 82 | scan_all(mean±std)=  0.155±  0.036 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  73.7x
+count= 83 | scan_all(mean±std)=  0.157±  0.031 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  69.6x
+count= 84 | scan_all(mean±std)=  0.158±  0.031 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  73.9x
+count= 85 | scan_all(mean±std)=  0.159±  0.031 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  77.1x
+count= 86 | scan_all(mean±std)=  0.156±  0.030 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  64.1x
+count= 87 | scan_all(mean±std)=  0.157±  0.029 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  68.8x
+count= 88 | scan_all(mean±std)=  0.151±  0.040 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  67.7x
+count= 89 | scan_all(mean±std)=  0.153±  0.040 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  67.7x
+count= 90 | scan_all(mean±std)=  0.155±  0.040 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  71.8x
+count= 91 | scan_all(mean±std)=  0.155±  0.040 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  67.1x
+count= 92 | scan_all(mean±std)=  0.163±  0.047 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  70.5x
+count= 93 | scan_all(mean±std)=  0.157±  0.043 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  72.4x
+count= 94 | scan_all(mean±std)=  0.162±  0.048 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  75.3x
+count= 95 | scan_all(mean±std)=  0.154±  0.047 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  71.6x
+count= 96 | scan_all(mean±std)=  0.164±  0.052 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  69.4x
+count= 97 | scan_all(mean±std)=  0.157±  0.048 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  69.8x
+count= 98 | scan_all(mean±std)=  0.156±  0.053 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  70.6x
+count= 99 | scan_all(mean±std)=  0.159±  0.054 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  73.6x
+count=100 | scan_all(mean±std)=  0.155±  0.054 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  70.5x
+count=101 | scan_all(mean±std)=  0.161±  0.057 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  71.8x
+count=102 | scan_all(mean±std)=  0.154±  0.059 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  71.2x
+count=103 | scan_all(mean±std)=  0.155±  0.065 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  64.2x
+count=104 | scan_all(mean±std)=  0.152±  0.061 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  71.0x
+count=105 | scan_all(mean±std)=  0.148±  0.068 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  66.4x
+count=106 | scan_all(mean±std)=  0.145±  0.067 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  67.0x
+count=107 | scan_all(mean±std)=  0.148±  0.068 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  68.1x
+count=108 | scan_all(mean±std)=  0.151±  0.071 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  64.0x
+count=109 | scan_all(mean±std)=  0.150±  0.069 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  70.1x
+count=110 | scan_all(mean±std)=  0.152±  0.072 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  69.6x
+count=111 | scan_all(mean±std)=  0.160±  0.089 ms | last_move(mean±std)=  0.003±  0.002 ms | speedup=  52.4x
+count=112 | scan_all(mean±std)=  0.140±  0.075 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  65.8x
+count=113 | scan_all(mean±std)=  0.136±  0.076 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  60.9x
+count=114 | scan_all(mean±std)=  0.136±  0.079 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  61.3x
+count=115 | scan_all(mean±std)=  0.135±  0.079 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  58.5x
+count=116 | scan_all(mean±std)=  0.135±  0.079 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  60.0x
+count=117 | scan_all(mean±std)=  0.137±  0.080 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  61.3x
+count=118 | scan_all(mean±std)=  0.138±  0.080 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  61.6x
+count=119 | scan_all(mean±std)=  0.140±  0.083 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  61.4x
+count=120 | scan_all(mean±std)=  0.138±  0.083 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  61.2x
+count=121 | scan_all(mean±std)=  0.124±  0.081 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  54.0x
+count=122 | scan_all(mean±std)=  0.124±  0.081 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.4x
+count=123 | scan_all(mean±std)=  0.125±  0.083 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.8x
+count=124 | scan_all(mean±std)=  0.128±  0.084 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  56.8x
+count=125 | scan_all(mean±std)=  0.127±  0.083 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  59.3x
+count=126 | scan_all(mean±std)=  0.129±  0.084 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  55.2x
+count=127 | scan_all(mean±std)=  0.130±  0.086 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.4x
+count=128 | scan_all(mean±std)=  0.132±  0.087 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  58.7x
+count=129 | scan_all(mean±std)=  0.132±  0.087 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.1x
+count=130 | scan_all(mean±std)=  0.134±  0.091 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  58.2x
+count=131 | scan_all(mean±std)=  0.137±  0.096 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  57.9x
+count=132 | scan_all(mean±std)=  0.135±  0.091 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  58.3x
+count=133 | scan_all(mean±std)=  0.121±  0.085 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  53.6x
+count=134 | scan_all(mean±std)=  0.117±  0.084 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  48.7x
+count=135 | scan_all(mean±std)=  0.120±  0.085 ms | last_move(mean±std)=  0.003±  0.001 ms | speedup=  46.5x
+count=136 | scan_all(mean±std)=  0.109±  0.083 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  45.3x
+count=137 | scan_all(mean±std)=  0.109±  0.085 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  47.6x
+count=138 | scan_all(mean±std)=  0.113±  0.089 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  46.9x
+count=139 | scan_all(mean±std)=  0.111±  0.088 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  48.4x
+count=140 | scan_all(mean±std)=  0.112±  0.089 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  48.6x
+count=141 | scan_all(mean±std)=  0.105±  0.088 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  42.9x
+count=142 | scan_all(mean±std)=  0.109±  0.103 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  48.1x
+count=143 | scan_all(mean±std)=  0.104±  0.092 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  42.8x
+count=144 | scan_all(mean±std)=  0.103±  0.092 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  47.1x
+count=145 | scan_all(mean±std)=  0.106±  0.098 ms | last_move(mean±std)=  0.003±  0.004 ms | speedup=  35.6x
+count=146 | scan_all(mean±std)=  0.100±  0.087 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  43.1x
+count=147 | scan_all(mean±std)=  0.099±  0.091 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  42.0x
+count=148 | scan_all(mean±std)=  0.097±  0.091 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  42.4x
+count=149 | scan_all(mean±std)=  0.099±  0.094 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  41.2x
+count=150 | scan_all(mean±std)=  0.098±  0.092 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  44.2x
+count=151 | scan_all(mean±std)=  0.104±  0.104 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  42.8x
+count=152 | scan_all(mean±std)=  0.095±  0.088 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  39.1x
+count=153 | scan_all(mean±std)=  0.094±  0.087 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  41.6x
+count=154 | scan_all(mean±std)=  0.084±  0.080 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  35.7x
+count=155 | scan_all(mean±std)=  0.081±  0.075 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  36.3x
+count=156 | scan_all(mean±std)=  0.073±  0.072 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  33.5x
+count=157 | scan_all(mean±std)=  0.069±  0.066 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  28.7x
+count=158 | scan_all(mean±std)=  0.067±  0.066 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  28.0x
+count=159 | scan_all(mean±std)=  0.069±  0.070 ms | last_move(mean±std)=  0.003±  0.001 ms | speedup=  26.6x
+count=160 | scan_all(mean±std)=  0.067±  0.069 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  29.7x
+count=161 | scan_all(mean±std)=  0.054±  0.044 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  23.2x
+count=162 | scan_all(mean±std)=  0.050±  0.040 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  22.1x
+count=163 | scan_all(mean±std)=  0.051±  0.041 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  22.2x
+count=164 | scan_all(mean±std)=  0.051±  0.041 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  22.7x
+count=165 | scan_all(mean±std)=  0.053±  0.043 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  22.7x
+count=166 | scan_all(mean±std)=  0.051±  0.042 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  20.7x
+count=167 | scan_all(mean±std)=  0.051±  0.044 ms | last_move(mean±std)=  0.003±  0.001 ms | speedup=  19.1x
+count=168 | scan_all(mean±std)=  0.046±  0.042 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  19.6x
+count=169 | scan_all(mean±std)=  0.047±  0.044 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  19.1x
+count=170 | scan_all(mean±std)=  0.046±  0.042 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  21.0x
+count=171 | scan_all(mean±std)=  0.047±  0.044 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  19.7x
+count=172 | scan_all(mean±std)=  0.044±  0.047 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  17.9x
+count=173 | scan_all(mean±std)=  0.044±  0.043 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  19.1x
+count=174 | scan_all(mean±std)=  0.044±  0.044 ms | last_move(mean±std)=  0.003±  0.004 ms | speedup=  13.8x
+count=175 | scan_all(mean±std)=  0.039±  0.040 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  17.0x
+count=176 | scan_all(mean±std)=  0.039±  0.042 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  17.0x
+count=177 | scan_all(mean±std)=  0.040±  0.041 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  16.7x
+count=178 | scan_all(mean±std)=  0.037±  0.036 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  16.1x
+count=179 | scan_all(mean±std)=  0.037±  0.037 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  17.2x
+count=180 | scan_all(mean±std)=  0.037±  0.037 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  16.0x
+count=181 | scan_all(mean±std)=  0.036±  0.037 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  15.1x
+count=182 | scan_all(mean±std)=  0.036±  0.038 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  16.8x
+count=183 | scan_all(mean±std)=  0.036±  0.038 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  15.4x
+count=184 | scan_all(mean±std)=  0.037±  0.039 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  15.4x
+count=185 | scan_all(mean±std)=  0.034±  0.038 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  14.7x
+count=186 | scan_all(mean±std)=  0.035±  0.039 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  14.8x
+count=187 | scan_all(mean±std)=  0.034±  0.039 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  15.8x
+count=188 | scan_all(mean±std)=  0.035±  0.036 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  14.0x
+count=189 | scan_all(mean±std)=  0.035±  0.037 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  14.8x
+count=190 | scan_all(mean±std)=  0.031±  0.035 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  12.9x
+count=191 | scan_all(mean±std)=  0.030±  0.029 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  12.9x
+count=192 | scan_all(mean±std)=  0.029±  0.030 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  13.0x
+count=193 | scan_all(mean±std)=  0.028±  0.030 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  12.2x
+count=194 | scan_all(mean±std)=  0.028±  0.031 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  12.2x
+count=195 | scan_all(mean±std)=  0.027±  0.029 ms | last_move(mean±std)=  0.003±  0.003 ms | speedup=  10.4x
+count=196 | scan_all(mean±std)=  0.027±  0.030 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  11.3x
+count=197 | scan_all(mean±std)=  0.027±  0.029 ms | last_move(mean±std)=  0.003±  0.002 ms | speedup=  10.0x
+count=198 | scan_all(mean±std)=  0.027±  0.027 ms | last_move(mean±std)=  0.003±  0.001 ms | speedup=  10.6x
+count=199 | scan_all(mean±std)=  0.027±  0.028 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  11.5x
+count=200 | scan_all(mean±std)=  0.027±  0.028 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  11.3x
+count=201 | scan_all(mean±std)=  0.027±  0.028 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  12.4x
+count=202 | scan_all(mean±std)=  0.027±  0.028 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  12.6x
+count=203 | scan_all(mean±std)=  0.027±  0.028 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  11.4x
+count=204 | scan_all(mean±std)=  0.027±  0.029 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  11.2x
+count=205 | scan_all(mean±std)=  0.026±  0.028 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  10.8x
+count=206 | scan_all(mean±std)=  0.026±  0.027 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  10.5x
+count=207 | scan_all(mean±std)=  0.026±  0.027 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  10.8x
+count=208 | scan_all(mean±std)=  0.025±  0.027 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  11.1x
+count=209 | scan_all(mean±std)=  0.026±  0.028 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=  11.7x
+count=210 | scan_all(mean±std)=  0.025±  0.026 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  10.3x
+count=211 | scan_all(mean±std)=  0.022±  0.021 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=  10.1x
+count=212 | scan_all(mean±std)=  0.022±  0.021 ms | last_move(mean±std)=  0.003±  0.001 ms | speedup=   8.7x
+count=213 | scan_all(mean±std)=  0.022±  0.021 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   9.5x
+count=214 | scan_all(mean±std)=  0.021±  0.020 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   8.7x
+count=215 | scan_all(mean±std)=  0.021±  0.021 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   9.2x
+count=216 | scan_all(mean±std)=  0.021±  0.020 ms | last_move(mean±std)=  0.003±  0.002 ms | speedup=   8.1x
+count=217 | scan_all(mean±std)=  0.021±  0.021 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   8.9x
+count=218 | scan_all(mean±std)=  0.020±  0.021 ms | last_move(mean±std)=  0.002±  0.000 ms | speedup=   8.4x
+count=219 | scan_all(mean±std)=  0.020±  0.021 ms | last_move(mean±std)=  0.003±  0.002 ms | speedup=   7.5x
+count=220 | scan_all(mean±std)=  0.018±  0.012 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   7.1x
+count=221 | scan_all(mean±std)=  0.017±  0.009 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   7.1x
+count=222 | scan_all(mean±std)=  0.016±  0.009 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   7.4x
+count=223 | scan_all(mean±std)=  0.016±  0.009 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   7.3x
+count=224 | scan_all(mean±std)=  0.015±  0.008 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   6.8x
+count=225 | scan_all(mean±std)=  0.014±  0.009 ms | last_move(mean±std)=  0.002±  0.001 ms | speedup=   6.6x
+CSV saved: C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\artifacts\benchmarks\winner_check_trend.csv
+PNG saved: C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\artifacts\benchmarks\winner_check_trend.png
+matplotlib not available or plotting failed: [WinError 1314] 客户端没有所需的特权。: 'C:\\CODE\\AlphaGoZero_Gobang\\alphazero\\AlphaZero_Gomoku-master\\artifacts\\benchmarks\\winner_check_trend.png' -> 'C:\\CODE\\AlphaGoZero_Gobang\\alphazero\\AlphaZero_Gomoku-master\\wandb\\offline-run-20251026_184239-wikywglr\\files\\benchmarks\\winner_check_trend.png'
+[34m[1mwandb[39m[22m: [33mWARNING[39m Saving files without folders. If you want to preserve subdirectories pass base_path to wandb.save, i.e. wandb.save("/mnt/folder/file.h5", base_path="/mnt")
+Traceback (most recent call last):
+  File "C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\tests\benchmark_winner_check_trend.py", line 229, in <module>
+    main()
+  File "C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\tests\benchmark_winner_check_trend.py", line 218, in main
+    wandb.save(csv_path)
+  File "C:\anaconda\envs\alphazero\Lib\site-packages\wandb\sdk\wandb_run.py", line 399, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\anaconda\envs\alphazero\Lib\site-packages\wandb\sdk\wandb_run.py", line 457, in wrapper_fn
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\anaconda\envs\alphazero\Lib\site-packages\wandb\sdk\wandb_run.py", line 444, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\anaconda\envs\alphazero\Lib\site-packages\wandb\sdk\wandb_run.py", line 2129, in save
+    return self._save(
+           ^^^^^^^^^^^
+  File "C:\anaconda\envs\alphazero\Lib\site-packages\wandb\sdk\wandb_run.py", line 2188, in _save
+    target_path.symlink_to(source_path)
+  File "C:\anaconda\envs\alphazero\Lib\pathlib.py", line 1198, in symlink_to
+    os.symlink(target, self, target_is_directory)
+OSError: [WinError 1314] 客户端没有所需的特权。: 'C:\\CODE\\AlphaGoZero_Gobang\\alphazero\\AlphaZero_Gomoku-master\\artifacts\\benchmarks\\winner_check_trend.csv' -> 'C:\\CODE\\AlphaGoZero_Gobang\\alphazero\\AlphaZero_Gomoku-master\\wandb\\offline-run-20251026_184239-wikywglr\\files\\benchmarks\\winner_check_trend.csv'

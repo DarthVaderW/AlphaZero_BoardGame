@@ -1,0 +1,98 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.14
+    cli_version: 0.22.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1761475361
+    t:
+      3:
+      - 3
+      - 4
+      - 13
+      - 16
+      - 42
+      - 61
+      4: 3.11.14
+      5: 0.22.2
+      8:
+      - 3
+      13: windows-amd64
+    e:
+      br4kj0smoyqua8y8nt70jdru0lrelz2e:
+        os: Windows-10-10.0.26100-SP0
+        python: CPython 3.11.14
+        started_at: '2025-10-26T10:42:39.111399Z'
+        args:
+        - --width
+        - '15'
+        - --height
+        - '15'
+        - --n_in_row
+        - '5'
+        - --min
+        - '1'
+        - --max
+        - '225'
+        - --step
+        - '1'
+        - --iters
+        - '10'
+        - --sequences
+        - '32'
+        - --wandb_mode
+        - offline
+        program: C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\tests\benchmark_winner_check_trend.py
+        code_path: tests\benchmark_winner_check_trend.py
+        code_path_local: tests\benchmark_winner_check_trend.py
+        git:
+          remote_url: https://github.com/DarthVaderW/AlphaZero_BoardGame.git
+          commit: 80076eb2f550a4f23a90f866a7ea91840b56467e
+        root: C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master
+        host: wht_home_win
+        executable: C:\anaconda\envs\alphazero\python.exe
+        cpu_count: 24
+        cpu_count_logical: 32
+        gpu_type: NVIDIA GeForce RTX 3090 Ti
+        gpu_count: 1
+        disk:
+          /:
+            total: '3999830896640'
+            used: '2498182995968'
+        memory:
+          total: '137242947584'
+        gpu_nvidia:
+        - name: NVIDIA GeForce RTX 3090 Ti
+          memory_total: '25757220864'
+          cuda_cores: 10752
+          architecture: Ampere
+          uuid: GPU-a202743e-3ac2-67ef-4a99-f6c6ea2feb6b
+        cuda_version: '12.6'
+        writer_id: br4kj0smoyqua8y8nt70jdru0lrelz2e
+width:
+  desc: null
+  value: 15
+height:
+  desc: null
+  value: 15
+n_in_row:
+  desc: null
+  value: 5
+min_count:
+  desc: null
+  value: 1
+max_count:
+  desc: null
+  value: 225
+step:
+  desc: null
+  value: 1
+iters:
+  desc: null
+  value: 10
+sequences:
+  desc: null
+  value: 32

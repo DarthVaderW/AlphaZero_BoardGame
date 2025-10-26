@@ -1,0 +1,23 @@
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_setup.py:_flush():81] Configure stats pid to 30572
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_setup.py:_flush():81] Loading settings from C:\Users\Haoti\.config\wandb\settings
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_setup.py:_flush():81] Loading settings from C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\wandb\settings
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_init.py:setup_run_log_directory():705] Logging user logs to C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\wandb\offline-run-20251026_180416-ure82i8a\logs\debug.log
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to C:\CODE\AlphaGoZero_Gobang\alphazero\AlphaZero_Gomoku-master\wandb\offline-run-20251026_180416-ure82i8a\logs\debug-internal.log
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_init.py:init():832] calling init triggers
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'experiment': {'use_gpu': False, 'seed': 0, 'game_batch_num': 3, 'play_batch_size': 1}, 'game': {'type': 'gobang', 'board_width': 6, 'board_height': 6, 'n_in_row': 4}, 'backend': {'game_core': 'python', 'mcts_alpha_zero': 'python', 'mcts_pure': 'python'}, 'mcts': {'temperature': 1.0, 'n_playout': 100, 'c_puct': 5.0}, 'pure_mcts': {'n_playout': 200, 'c_puct': 5.0, 'n_games': 2, 'schedule': {'enabled': False, 'start_n_playout': 1000, 'step_n_playout': 1000, 'max_n_playout': 5000, 'win_ratio_threshold': 1.0, 'reset_best_win_ratio': True}}, 'training': {'buffer_size': 1000, 'batch_size': 32, 'epochs': 2, 'kl_targ': 0.02, 'lr': 0.002}, 'logging': {'save_interval': 1, 'wandb': {'mode': 'offline', 'project': 'gobang-alpha-zero', 'run_name': 'test-quick-6x6'}}, 'paths': {'checkpoints_dir': 'artifacts/checkpoints', 'replay_dir': 'artifacts/replay'}, '_wandb': {}}
+2025-10-26 18:04:16,348 INFO    MainThread:30572 [wandb_init.py:init():880] starting backend
+2025-10-26 18:04:18,639 INFO    MainThread:30572 [wandb_init.py:init():883] sending inform_init request
+2025-10-26 18:04:18,647 INFO    MainThread:30572 [wandb_init.py:init():891] backend started and connected
+2025-10-26 18:04:18,648 INFO    MainThread:30572 [wandb_init.py:init():961] updated telemetry
+2025-10-26 18:04:18,669 INFO    MainThread:30572 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-26 18:04:18,873 INFO    MainThread:30572 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-26 18:04:19,049 INFO    MainThread:30572 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-26 18:04:19,049 INFO    MainThread:30572 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-26 18:04:19,049 INFO    MainThread:30572 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-26 18:04:19,049 INFO    MainThread:30572 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-26 18:04:19,051 INFO    MainThread:30572 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-26 18:04:35,790 INFO    wandb-AsyncioManager-main:30572 [service_client.py:_forward_responses():80] Reached EOF.
+2025-10-26 18:04:35,790 INFO    wandb-AsyncioManager-main:30572 [mailbox.py:close():137] Closing mailbox, abandoning 0 handles.
