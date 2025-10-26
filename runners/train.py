@@ -65,8 +65,10 @@ class TrainRunner:
         # Board + Game: pass raw YAML game config dict directly
         self.board = Board(config=game_cfg)
         self.game = Game(self.board)
-        # Env (available for future use; runner keeps using Game for self-play)
-        self.env = GobangEnv(self.board_width, self.board_height, self.n_in_row)
+        # Env(s): RL-style interface
+        env_cfg = cfg.get("env", {}) or {}
+        self.num_envs = int(env_cfg.get("num_envs", 1))
+        self.envs: List[GobangEnv] = [GobangEnv(self.board_width, self.board_height, self.n_in_row) for _ in range(self.num_envs)]
 
         train_cfg = cfg.get("training", {})
         self.learn_rate = float(train_cfg.get("lr", 2e-3))
@@ -120,17 +122,47 @@ class TrainRunner:
         if self.wandb:
             try:
                 self.wandb.log(metrics)
+                print(metrics)
             except Exception:
                 pass
 
     def collect_selfplay_data(self, n_games: int = 1) -> None:
+        """Env-first rollout collection, rsl_rl/Isaac Gym style step/reset.
+        Replaces Game.start_self_play to generate AlphaZero training samples via env.
+        """
+        total_collected = 0
         for _ in range(n_games):
-            winner, play_data = self.game.start_self_play(self.mcts_agent.to_player(), temp=self.temp)
-            play_data = list(play_data)[:]
-            self.episode_len = len(play_data)
-            aug_data = augment_play_data(play_data, self.board_width, self.board_height)
-            self.data_buffer.extend(aug_data)
-            self._log({"episode_len": self.episode_len, "buffer_len": len(self.data_buffer)})
+            # Single-env episode (vectorization can be added later)
+            env = self.envs[0]
+            env.reset()
+            player = self.mcts_agent.to_player()
+            states: List[np.ndarray] = []
+            mcts_probs: List[np.ndarray] = []
+            current_players: List[int] = []
+            while True:
+                # Observe state and select action with MCTS
+                state = env.observe()
+                board = env.board
+                current_players.append(board.get_current_player())
+                move, move_prob = player.get_action(board, temp=self.temp, return_prob=1)
+                states.append(state)
+                mcts_probs.append(move_prob)
+                # Step env
+                _, _, done, info = env.step(move)
+                if done:
+                    winner = info.get("winner", -1)
+                    winners_z = np.zeros(len(current_players), dtype=np.float32)
+                    if winner != -1:
+                        winners_z[np.array(current_players) == winner] = 1.0
+                        winners_z[np.array(current_players) != winner] = -1.0
+                    player.reset_player()
+                    play_data = list(zip(states, mcts_probs, winners_z))
+                    self.episode_len = len(play_data)
+                    aug_data = augment_play_data(play_data, self.board_width, self.board_height)
+                    self.data_buffer.extend(aug_data)
+                    total_collected += 1
+                    self._log({"episode_len": self.episode_len, "buffer_len": len(self.data_buffer)})
+                    break
 
     def policy_update(self) -> Tuple[float, float, float, float]:
         mini_batch = self.data_buffer.sample(self.batch_size)
@@ -217,7 +249,7 @@ class TrainRunner:
         try:
             for i in range(self.game_batch_num):
                 self.collect_selfplay_data(self.play_batch_size)
-                print(f"batch i:{i+1}, episode_len:{self.episode_len}")
+                print(f"batch i:{i+1}, episode_len:{self.episode_len}, buffer_len:{len(self.data_buffer)}")
                 if len(self.data_buffer) > self.batch_size:
                     self.policy_update()
                 if (i + 1) % self.check_freq == 0:

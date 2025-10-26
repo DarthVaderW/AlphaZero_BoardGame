@@ -6,10 +6,10 @@ experiment:
 
 game:
   type: gobang
-  board_width: 8
-  board_height: 8
-  n_in_row: 5
-  winner_check: scan_all
+  board_width: 6
+  board_height: 6
+  n_in_row: 4
+  winner_check: last_move
 
 backend:
   game_core: python
@@ -45,7 +45,7 @@ logging:
   wandb:
     mode: offline
     project: gobang-alpha-zero
-    run_name: train-default-8x8-5inrow
+    run_name: train-default-6x6-4inrow
 
 paths:
   checkpoints_dir: artifacts/checkpoints

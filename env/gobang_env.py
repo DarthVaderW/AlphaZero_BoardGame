@@ -10,7 +10,9 @@ from game_core import Board, Game
 
 class GobangEnv(BaseEnv):
     def __init__(self, board_width: int = 15, board_height: int = 15, n_in_row: int = 4):
-        self.board = Board(width=board_width, height=board_height, n_in_row=n_in_row)
+        # Align with Board's config-based constructor
+        cfg = {"board_width": board_width, "board_height": board_height, "n_in_row": n_in_row}
+        self.board = Board(config=cfg)
         self.game = Game(self.board)
         self._last_state = None
 
